@@ -17,6 +17,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>study-nacos</module>
+        <module>study-gateway</module>
     </modules>
 
     <properties>
@@ -25,6 +26,7 @@
         <java.version>1.8</java.version>
         <nacos.version>2.1.4.RELEASE</nacos.version>
         <hystrix.version>2.1.4.RELEASE</hystrix.version>
+        <gateway.version>2.1.4.RELEASE</gateway.version>
     </properties>
 
     <build>
