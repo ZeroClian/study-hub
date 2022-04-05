@@ -18,6 +18,8 @@
     <modules>
         <module>study-nacos</module>
         <module>study-gateway</module>
+        <module>study-security</module>
+        <module>study-common</module>
     </modules>
 
     <properties>
@@ -28,6 +30,19 @@
         <hystrix.version>2.1.4.RELEASE</hystrix.version>
         <gateway.version>2.1.4.RELEASE</gateway.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.7.16</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <pluginManagement>
