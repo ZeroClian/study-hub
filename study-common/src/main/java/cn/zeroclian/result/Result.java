@@ -6,6 +6,8 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
+ * 统一结果封装
+ *
  * @author ZeroClian
  * @date 2022-04-04 6:16 下午
  */
