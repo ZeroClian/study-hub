@@ -20,3 +20,10 @@ spring:
             - Path=/nacos/**
           filters:
             - StripPrefix=1
+        - id: finance
+          uri: lb://finance
+          order: 1
+          predicates:
+            - Path=/finance/**
+          filters:
+            - StripPrefix=1

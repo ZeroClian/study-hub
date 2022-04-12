@@ -20,6 +20,7 @@
         <module>study-gateway</module>
         <module>study-security</module>
         <module>study-common</module>
+        <module>study-finance</module>
     </modules>
 
     <properties>
@@ -29,6 +30,7 @@
         <nacos.version>2.1.4.RELEASE</nacos.version>
         <hystrix.version>2.1.4.RELEASE</hystrix.version>
         <gateway.version>2.1.4.RELEASE</gateway.version>
+        <mybatis-plus.version>3.4.0</mybatis-plus.version>
     </properties>
 
     <dependencies>

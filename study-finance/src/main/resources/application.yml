@@ -1,0 +1,15 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: finance
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.106.120.147:8848
+
+  redis:
+    port: 6379
+    database: 0
+    host: 47.106.120.147
