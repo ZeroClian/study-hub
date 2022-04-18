@@ -30,7 +30,8 @@
         <nacos.version>2.1.4.RELEASE</nacos.version>
         <hystrix.version>2.1.4.RELEASE</hystrix.version>
         <gateway.version>2.1.4.RELEASE</gateway.version>
-        <mybatis-plus.version>3.4.0</mybatis-plus.version>
+        <mybatis-plus.version>3.5.1</mybatis-plus.version>
+        <mysql.version>5.1.49</mysql.version>
     </properties>
 
     <dependencies>
