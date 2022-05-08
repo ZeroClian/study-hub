@@ -27,3 +27,10 @@ spring:
             - Path=/finance/**
           filters:
             - StripPrefix=1
+        - id: miniapp
+          uri: lb://miniapp
+          order: 1
+          predicates:
+            - Path=/miniapp/**
+          filters:
+            - StripPrefix=1

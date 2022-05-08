@@ -1,0 +1,19 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: miniapp
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.106.120.147:8848
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.106.120.147:3306/study-hub?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  #开启SQL语句打印
